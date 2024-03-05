@@ -52,6 +52,8 @@
   color: var(--branco);
   cursor: pointer;
   float: right;
+  border-radius: 50px;
+  margin: .5rem 0;
 }
 
 .formulario__erro {
@@ -73,4 +75,9 @@
   font-size: 12px;
   line-height: 18px;
   color: var(--vermelho);
+}
+
+.ng-touched.ng-invalid:not(form) {
+  border-color: red;
+  color: red;
 }
