@@ -1,12 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ConsultaCepService {
-  private  url_API = 'https://viacep.com.br/ws/';
+  private readonly url_API = 'https://viacep.com.br/ws/';
 
   constructor(private http: HttpClient) { }
   
