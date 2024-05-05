@@ -12,11 +12,11 @@ O objetivo do AluraBook Formulário Customizado é oferecer uma solução práti
 
 Tecnologias Utilizadas:
 
-Angular
-TypeScript
-HTML
-CSS
-API de CEP do IBGE
+Angular,
+TypeScript,
+HTML,
+CSS,
+API de CEP do IBGE,
 Contribuições:
 
 O AluraBook Formulário Customizado é um projeto da Alura.
